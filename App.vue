@@ -17,9 +17,12 @@
 
 	/* 全局样式文件 */
 	@import url('@/common/free.css');
-	@import url('@/common/common.css');
+
 	/* 引入动画库 */
 	@import url('@/common/animate.min.css');
 	/* 引入字体图标 */
 	@import url('~@/common/iconfont.css');
+	@import url('~@/common/iconfont/iconfont.css');
+
+	@import url('@/common/common.css');
 </style>

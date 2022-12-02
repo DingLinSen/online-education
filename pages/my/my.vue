@@ -1,5 +1,5 @@
 <template>
-	<view class="my">
+	<view class="my animate__animated animate__fadeInDown">
 		<view class="user">
 			<!-- 个人信息组件 -->
 			<userInfo></userInfo>
@@ -40,6 +40,8 @@
 	.my {
 		height: 100%;
 		background-color: #fff;
+		--animate-duration: .5s; //动画持续时间
+		--animate-delay: .5s; //动画延迟时间
 	}
 
 	.user {

@@ -1,0 +1,26 @@
+@font-face {
+	font-family: "iconfont";
+	/* Project id 3805361 */
+	src:
+		url('@/common/iconfont/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-yonghu:before {
+	content: "\e624";
+}
+
+.icon-weixin:before {
+	content: "\e625";
+}
+
+.icon-mima:before {
+	content: "\e8b2";
+}
